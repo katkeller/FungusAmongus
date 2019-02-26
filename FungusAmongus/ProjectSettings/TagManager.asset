@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 416169785
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Phone
+    uniqueID: 2423647569
+    locked: 0
+  - name: Phone Screen
+    uniqueID: 39738593
     locked: 0
