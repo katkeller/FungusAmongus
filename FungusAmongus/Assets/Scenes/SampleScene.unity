@@ -666,9 +666,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b0216325c39d31d4899a6fc6f82bf077, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b7e5cec1b8cf8924ab8f3c5103a74415, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.783
+  m_Volume: 0.292
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7002,7 +7002,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3dae0eb88b4e07c409f5f6a514c9cb1c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.783
+  m_Volume: 0.586
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10808,7 +10808,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a6be9819b0546e148a09a6b92bc71c3d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10924,14 +10924,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: 1
   loop: 1
-  targetAudioSource: {fileID: 0}
-  audioMode: 0
+  targetAudioSource: {fileID: 1943064190}
+  audioMode: 1
   beepSounds:
   - {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
   - {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
   - {fileID: 8300000, guid: c53b7c20372e444c6bd7f2ac0729bbe2, type: 3}
-  soundEffect: {fileID: 0}
-  inputSound: {fileID: 8300000, guid: 14a396b1562834718b2d52b9c4639264, type: 3}
+  soundEffect: {fileID: 8300000, guid: a6be9819b0546e148a09a6b92bc71c3d, type: 3}
+  inputSound: {fileID: 8300000, guid: a6be9819b0546e148a09a6b92bc71c3d, type: 3}
 --- !u!114 &1943064193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10946,7 +10946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 1724937530}
   punchObject: {fileID: 1568542717}
-  writingSpeed: 60
+  writingSpeed: 50
   punctuationPause: 0.25
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
