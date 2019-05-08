@@ -2329,6 +2329,8 @@ GameObject:
   - component: {fileID: 914908885}
   - component: {fileID: 914908890}
   - component: {fileID: 914908889}
+  - component: {fileID: 914908892}
+  - component: {fileID: 914908891}
   m_Layer: 0
   m_Name: AlexFlowchart1
   m_TagString: Untagged
@@ -2425,7 +2427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 871.55, y: 29.95504}
+  scrollPos: {x: 737.2643, y: 134.24072}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2437,9 +2439,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 914908837}
+  - {fileID: 914908876}
   selectedCommands:
-  - {fileID: 914908869}
+  - {fileID: 914908891}
   variables: []
   description: 
   stepPause: 0
@@ -5869,6 +5871,8 @@ MonoBehaviour:
   - {fileID: 914908887}
   - {fileID: 914908886}
   - {fileID: 914908885}
+  - {fileID: 914908892}
+  - {fileID: 914908891}
   - {fileID: 914908890}
   - {fileID: 914908889}
   - {fileID: 914908874}
@@ -6173,6 +6177,46 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &914908891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914908746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 151
+  indentLevel: 0
+  spriteRenderer: {fileID: 906369724}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &914908892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914908746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  spriteRenderer: {fileID: 274175512}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!1 &951344620
 GameObject:
   m_ObjectHideFlags: 0
@@ -12532,7 +12576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 696746755}
+  selectedFlowchart: {fileID: 914908750}
 --- !u!4 &2010178335
 Transform:
   m_ObjectHideFlags: 1
