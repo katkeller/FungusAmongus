@@ -2442,6 +2442,7 @@ MonoBehaviour:
   - {fileID: 914908876}
   selectedCommands:
   - {fileID: 914908891}
+  - {fileID: 914908892}
   variables: []
   description: 
   stepPause: 0
@@ -5864,6 +5865,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 914908875}
   commandList:
+  - {fileID: 914908892}
+  - {fileID: 914908891}
   - {fileID: 914908877}
   - {fileID: 914908878}
   - {fileID: 914908863}
@@ -5871,8 +5874,6 @@ MonoBehaviour:
   - {fileID: 914908887}
   - {fileID: 914908886}
   - {fileID: 914908885}
-  - {fileID: 914908892}
-  - {fileID: 914908891}
   - {fileID: 914908890}
   - {fileID: 914908889}
   - {fileID: 914908874}
